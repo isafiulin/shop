@@ -4,10 +4,10 @@ import '../service/shop_service.dart';
 class ShopDataProvider {
   Future<ShopData> getShopItems() async {
     List<ShopItem> shopItems = [
-      ShopItem(id: 1, title: "BMW E39", price: 333.33, quantity: 1),
-      ShopItem(id: 2, title: "BMW E30", price: 33.33, quantity: 1),
-      ShopItem(id: 3, title: "BMW E60", price: 533.33, quantity: 1),
-      ShopItem(id: 4, title: "BMW E90", price: 5333.33, quantity: 1)
+      ShopItem(id: 1, title: "BMW E39", price: 1500, quantity: 1),
+      ShopItem(id: 2, title: "BMW E30", price: 500, quantity: 1),
+      ShopItem(id: 3, title: "BMW E60", price: 300, quantity: 1),
+      ShopItem(id: 4, title: "BMW E90", price: 6000, quantity: 1)
     ];
 
     return ShopData(shopitems: shopItems);
